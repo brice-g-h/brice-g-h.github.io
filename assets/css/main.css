@@ -2207,6 +2207,18 @@ input, select, textarea {
 			.image.main img {
 				border-radius: 0;
 			}
+		
+		.image.silhouette {
+			max-width: 100%;
+			overflow: hidden;
+			background-color: transparent;
+		}
+
+			.image.silhouette img {
+				border-radius: 0;
+				display: block;
+				width: 100%;
+			}
 
 /* List */
 
@@ -2724,7 +2736,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #E9E9E9;
+			color: #ffffff;
 		}
 
 			#header a:hover {
@@ -2738,6 +2750,13 @@ input, select, textarea {
 			flex-shrink: 0;
 			padding: 3em;
 		}
+
+			#header > header .silhouette {
+				-webkit-filter: grayscale(100%) brightness(100%);
+				display: block;
+				margin: 0 auto 0 auto;
+				width: 10em;
+			}
 
 			#header > header .avatar {
 				display: block;
@@ -2772,7 +2791,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #99D3DF;
+					color: #ffffff;
 				}
 
 		#header > nav {
