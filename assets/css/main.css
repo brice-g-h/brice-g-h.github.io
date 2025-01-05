@@ -2743,7 +2743,7 @@ input, select, textarea {
 
 			#header a:hover {
 				color: #ffffff !important;
-			} 
+			}
 
 		#header > header {
 			-moz-flex-shrink: 0;
@@ -2752,14 +2752,6 @@ input, select, textarea {
 			flex-shrink: 0;
 			padding: 3em;
 		}
-
-			#header > header .silhouette {
-				-webkit-filter: hue-rotate(140%) grayscale(100%) brightness(100%);
-				filter: hue-rotate(140%) grayscale(100%) brightness(100%);
-				display: block;
-				margin: 0 auto 0 auto;
-				width: 23em;
-			}
 
 			#header > header .avatar {
 				display: block;
@@ -2811,7 +2803,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #E9E9E9;
+					border-top: solid 2px #ffffff;
 					display: block;
 					padding: 0;
 				}
