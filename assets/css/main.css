@@ -2196,6 +2196,7 @@ input, select, textarea {
 				border-radius: 100%;
 				display: block;
 				width: 100%;
+				z-index: 1;
 			}
 
 		.image.main {
@@ -2218,6 +2219,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				width: 100%;
+				z-index: 0;
 			}
 
 /* List */
@@ -2713,7 +2715,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #88BBD6;
-		color: #E9E9E9;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2741,7 +2743,7 @@ input, select, textarea {
 
 			#header a:hover {
 				color: #ffffff !important;
-			}
+			} 
 
 		#header > header {
 			-moz-flex-shrink: 0;
@@ -2752,10 +2754,11 @@ input, select, textarea {
 		}
 
 			#header > header .silhouette {
-				-webkit-filter: grayscale(100%) brightness(100%);
+				-webkit-filter: hue-rotate(140%) grayscale(100%) brightness(100%);
+				filter: hue-rotate(140%) grayscale(100%) brightness(100%);
 				display: block;
 				margin: 0 auto 0 auto;
-				width: 10em;
+				width: 23em;
 			}
 
 			#header > header .avatar {
